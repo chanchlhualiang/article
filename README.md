@@ -30,9 +30,7 @@
 2.系统的设计思路和设计文件在documentation文件夹下，如果你想知道系统设计思路，可以看这些文档和我的毕业设计说明书
 3.数据库脚本在sql目录下，请在运行前导入sql脚本
 4.初始用户zhangsan,密码123456，密码使用了加密机制，请不要直接修改数据库密码字段，可以运行article/src/main/java/cn/edu/nuc/article/util/MD5Helper.java来生成原文对应的密码。
-5.启动Web容器之前需要先启动JackRabbit，jackrabbit-standalone-2.4.3.jar必须
-  与【启动jackrabbit.bat】放在同一目录下，然后双击【启动jackrabbit.bat】即可启动JackRabbit，
-  需要说明的是：7000端口不可以被占用，运行的机器上必须安装jdk并配置好环境变量。
+5.启动Web容器之前需要先启动JackRabbit，jackrabbit-standalone-2.4.3.jar必须与【启动jackrabbit.bat】放在同一目录下，然后双击【启动jackrabbit.bat】即可启动JackRabbit，需要说明的是：7000端口不可以被占用，运行的机器上必须安装jdk并配置好环境变量。
 6.默认情况下：JackRabbit必须和Tomcat在同一台机器上，这个可以改，需要的话请修改FileService这个类的RMI地址：
     private final static String RMI = "http://localhost:7000/rmi";
   把localhost改为你的Rackrabbit所在服务器的IP地址即可！ 
