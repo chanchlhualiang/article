@@ -1,4 +1,4 @@
-### 中北大学软件学院王凯的本科毕业设计：基于SSM+Activiti的公文管理系统的设计与实现。 ** 
+### 中北大学软件学院王凯的本科毕业设计：基于SSM+Activiti的公文管理系统的设计与实现。 
 
 项目只是实现了最基本的公文流程的处理，做的不好的地方请大家谅解。 
 
@@ -30,10 +30,12 @@
 
 项目基于eclipse开发，使用的技术：Spring、SpringMVC、Mybatis、Activiti、Maven、JackRabbit（保存上传文件）
 
+ **系统内所有文件全部采用UTF-8格式编码，如出现乱码，请检查数据库是否设置编码为UTF-8，工程是否设置默认编码为UTF-8。** 
+
 ### 系统的部署流程：
 
 
-1.首先创建db_article数据库，然后运行sql文件创建相关数据表。
+1.首先创建db_article数据库，注意创建时须采用UTF-8编码，然后运行sql文件创建相关数据表。
 
 2.向Tomcat中部署article.war到webapps目录下，如果需要修改数据库密码请修改WEB-INF\classes目录下的jdbc.properties文件，修改mysql.password的值为当前数据库密码
 
