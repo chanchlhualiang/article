@@ -32,6 +32,13 @@
 
  **系统内所有文件全部采用UTF-8格式编码，如出现乱码，请检查数据库是否设置编码为UTF-8，工程是否设置默认编码为UTF-8。** 
 
+### 系统界面
+
+![公文信息查看预览](https://git.oschina.net/uploads/images/2017/0710/094627_95276260_884973.png "公文信息查看预览")
+![公文历史信息查看](https://git.oschina.net/uploads/images/2017/0710/094637_2d8bee24_884973.png "公文历史信息查看")
+![公文审核界面](https://git.oschina.net/uploads/images/2017/0710/094737_82c9c715_884973.png "公文审核界面")
+![公文审核结果](https://git.oschina.net/uploads/images/2017/0710/094758_da65302d_884973.png "公文审核结果")
+
 ### 系统的部署流程：
 
 
