@@ -2,9 +2,9 @@
 
  **注意：请有偿销售源码的人不要在评论区做广告，一经发现，一律删除，绝不姑息！这是开源社区，不是你们卖源码的市场！卖源码请滚回你的淘宝店铺去。** 
 
-项目只是实现了最基本的公文流程的处理，做的不好的地方请大家谅解。 
-
 ### 本项目的相关文件在附件部分有提供。请大家移步附件下载，感谢大家的支持！
+
+项目只是实现了最基本的公文流程的处理，做的不好的地方请大家谅解。 
 
 ![输入图片说明](https://gitee.com/uploads/images/2018/0611/150351_13cf4408_884973.png "TIM截图20180611150311.png")
 
@@ -75,4 +75,4 @@ article/src/main/java/cn/edu/nuc/article/util/MD5Helper.java来生成原文对�
 
     private final static String RMI = "http://localhost:7000/rmi";
 
-  把localhost改为你的Rackrabbit所在服务器的IP地址即可！ 
+  把localhost改为你的Jackrabbit所在服务器的IP地址即可！ 
